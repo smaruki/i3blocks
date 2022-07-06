@@ -111,6 +111,17 @@ Example config:
 [datetime]
 label=
 interval=5
+
+[time-pt]
+label=PT
+command=TZ=":Europe/Lisbon" date '+%Y-%m-%d %T'
+interval=1
+
+[time]
+label=BR
+command=date '+%T'
+interval=1
+
 ```
 
 ### Display
